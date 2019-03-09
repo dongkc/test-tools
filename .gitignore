@@ -1,3 +1,6 @@
 .vs
 x64
 *sdf
+SerialPort/x64
+SerialPort/Debug
+SerialPort/GeneratedFiles
