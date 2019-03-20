@@ -6,14 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>432</width>
-    <height>360</height>
+    <width>554</width>
+    <height>554</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>17</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>SerialPort</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>6</number>
+   </property>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_6">
      <item>
@@ -21,6 +29,12 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_connect">
+       <property name="minimumSize">
+        <size>
+         <width>111</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="text">
         <string>连接</string>
        </property>
@@ -73,6 +87,12 @@
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="QLabel" name="label_2">
+       <property name="minimumSize">
+        <size>
+         <width>92</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="text">
         <string>标定1：</string>
        </property>
@@ -101,6 +121,12 @@
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QLabel" name="label_3">
+       <property name="minimumSize">
+        <size>
+         <width>92</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="text">
         <string>标定2：</string>
        </property>
@@ -129,6 +155,12 @@
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
       <widget class="QLabel" name="label_4">
+       <property name="minimumSize">
+        <size>
+         <width>92</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="text">
         <string>标定3：</string>
        </property>
@@ -157,6 +189,12 @@
     <layout class="QHBoxLayout" name="horizontalLayout_7">
      <item>
       <widget class="QLabel" name="label_5">
+       <property name="minimumSize">
+        <size>
+         <width>92</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>16777215</width>
@@ -170,10 +208,16 @@
      </item>
      <item>
       <widget class="QLabel" name="label_AD">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
-         <width>155</width>
-         <height>20</height>
+         <width>167</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
@@ -205,10 +249,16 @@
      </item>
      <item>
       <widget class="QLabel" name="label_strength">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="minimumSize">
         <size>
-         <width>155</width>
-         <height>20</height>
+         <width>167</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
